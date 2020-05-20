@@ -34,3 +34,6 @@ jobs:
       - name: Run tests
         run: |
           ./vendor/bin/phpunit
+        env:
+          CLUB_ID: BVBL1080
+          TEAM_ID: "BVBL1080HSE  1"
