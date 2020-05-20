@@ -29,7 +29,7 @@ jobs:
           path: vendor
           key: ${{ runner.os }}-build-${{ hashFiles('**/composer.lock') }}
 
-      - uses: php-actions/composer@master
+      - uses: php-actions/composer@v1
 
       - name: Run tests
         run: |
