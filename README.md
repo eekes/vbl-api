@@ -1,8 +1,8 @@
 # VBL API
 
-![Testing](https://github.com/eekes/vbl-api/workflows/Tests/badge.svg)
+![Testing](https://github.com/eekes/vbl-api/workflows/Tests/badge.svg) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/eekes/vbl-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/eekes/vbl-api/?branch=master)
 
-PHP wrapper for the [VBL API](https://www.basketbal.vlaanderen/faq/categorie/api) to get all data as nice objects, making
+PHP wrapper for the [VBL (Basketbal Vlaanderen) API](https://www.basketbal.vlaanderen/faq/categorie/api) to get all data as nice objects, making
 it much easier to use on you club's website.
 
 ## Usage
