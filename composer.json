@@ -1,0 +1,34 @@
+{
+    "name": "eekes/vbl-api",
+    "description": "PHP wrapper for the VBL API that turns all data into nice objects.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Eekes\\VblApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Eekes\\VblApi\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "^4.1",
+        "phpunit/phpunit": "^9.1"
+    },
+    "homepage": "https://github.com/eekes/vbl-api",
+    "authors": [
+        {
+            "name": "Ewald Vanderveken",
+            "email": "vandervekenewald@gmail.com",
+            "homepage": "https://www.ewaldvanderveken.dev"
+
+        }
+    ]
+}
