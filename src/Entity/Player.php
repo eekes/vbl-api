@@ -19,7 +19,7 @@ class Player
         $player->name = $response->naam;
         $player->membershipNumber = $response->lidNr;
         $player->birthDate = \DateTimeImmutable::createFromFormat('d-m-Y', $response->sGebDat);
-        $player->affiliationDate = \DateTimeImmutable::createFromFormat('d-m-Y', $response->sAanslDat);
+        $player->affiliationDate = \DateTimeImmutable::createFromFormat('d-m-Y H:i', $response->sAanslDat) ?: null;
 
         return $player;
     }
