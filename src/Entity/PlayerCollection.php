@@ -14,7 +14,7 @@ class PlayerCollection implements \IteratorAggregate
         $collection = new self();
 
         foreach ($response as $player) {
-            $collection->players[$player->guid] = Player::createFromResponse($player);
+            $collection->players[$player->relGuid] = Player::createFromResponse($player);
         }
 
         return $collection;

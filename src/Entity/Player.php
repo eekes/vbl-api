@@ -15,7 +15,7 @@ class Player
     {
         $player = new self();
 
-        $player->id = $response->guid;
+        $player->id = $response->relGuid;
         $player->name = $response->naam;
         $player->membershipNumber = $response->lidNr;
         $player->birthDate = \DateTimeImmutable::createFromFormat('d-m-Y', $response->sGebDat);
