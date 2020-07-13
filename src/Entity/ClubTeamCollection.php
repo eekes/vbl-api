@@ -21,7 +21,7 @@ class ClubTeamCollection implements \IteratorAggregate
     }
 
     /**
-     * @return ArrayIterator|\Traversable|Team[]
+     * @return ArrayIterator|\Traversable|ClubTeam[]
      */
     public function getIterator()
     {
