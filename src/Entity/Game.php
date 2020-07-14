@@ -64,6 +64,10 @@ class Game
 
     private function buildStartDateTime(string $date, string $time): \DateTimeImmutable
     {
+        if (empty($time)) {
+            $time = '00.00';
+        }
+
         return \DateTimeImmutable::createFromFormat('d-m-Y H.i', $date . ' ' . $time);
     }
 
