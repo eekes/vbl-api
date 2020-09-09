@@ -14,7 +14,7 @@ class Staff
     {
         $staff = new self();
 
-        $staff->id = $response->guid;
+        $staff->id = $response->relGuid;
         $staff->name = $response->naam;
         $staff->membershipNumber = $response->lidNr;
         $staff->position = $response->tvCaC;

@@ -14,7 +14,7 @@ class StaffCollection implements \IteratorAggregate
         $collection = new self();
 
         foreach ($response as $staff) {
-            $collection->staff[$staff->guid] = Staff::createFromResponse($staff);
+            $collection->staff[$staff->relGuid] = Staff::createFromResponse($staff);
         }
 
         return $collection;

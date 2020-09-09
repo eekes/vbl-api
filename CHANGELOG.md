@@ -1,3 +1,7 @@
+# 1.0.4
+
+- Fixed error thrown because of the wrong ``Staff`` guid property
+
 # 1.0.3
 
 - Set start time of a game to 00.00 if there is no time available yet
