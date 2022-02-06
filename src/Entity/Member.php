@@ -21,4 +21,24 @@ class Member
 
         return $member;
     }
+
+    public function getId(): string
+    {
+        return $this->id;
+    }
+
+    public function getLastName(): ?string
+    {
+        return $this->lastName;
+    }
+
+    public function getFirstName(): ?string
+    {
+        return $this->firstName;
+    }
+
+    public function getBirthDate(): ?\DateTimeImmutable
+    {
+        return $this->birthDate;
+    }
 }
