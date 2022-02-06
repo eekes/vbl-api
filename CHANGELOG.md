@@ -1,3 +1,7 @@
+# 1.0.5 
+
+- Added getters for member properties
+
 # 1.0.4
 
 - Fixed error thrown because of the wrong ``Staff`` guid property
